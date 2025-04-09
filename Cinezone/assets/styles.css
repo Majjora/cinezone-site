@@ -8,8 +8,8 @@
 
     .cinezone-logo {
         margin-top: 0; /* Remove a margem superior */
-        width: 40vw; /* Largura proporcional para telas pequenas */
-        height: 40vw; /* Altura proporcional */
+        width: 50vw; /* Largura proporcional para telas pequenas */
+        height: 50vw; /* Altura proporcional */
     }
 
     .language-selector, .login-container {
@@ -21,6 +21,47 @@
         width: 90%; /* Faz o formulário ocupar 90% da largura da tela */
         padding: 20px; /* Ajusta o padding do formulário */
     }
+
+    .login-form input {
+        width: 100%; /* Torna os campos de entrada responsivos */
+        padding: 12px; /* Ajusta o padding */
+    }
+
+    /* Ajuste no botão de login */
+    .login-container button {
+        width: 100%; /* O botão ocupa toda a largura */
+    }
+
+    .footer-container {
+        flex-direction: column; /* Organiza o rodapé em coluna */
+        align-items: center; /* Centraliza os itens do rodapé */
+    }
+
+    .footer-info, .footer-links, .footer-social, .footer-newsletter {
+        flex: 1 1 100%; /* Faz as colunas ocuparem 100% da largura em telas pequenas */
+        margin-bottom: 20px; /* Espaçamento entre os itens do rodapé */
+    }
+
+    /* Ajuste para o botão principal */
+    .button-principal {
+        width: 80%; /* Faz o botão principal ocupar mais largura */
+        height: 50px; /* Ajusta a altura do botão */
+        font-size: 16px; /* Tamanho de fonte mais adequado para telas menores */
+    }
+
+    /* Ajuste para as imagens */
+    .imagens-container-borda {
+        width: 90%; /* Ajusta a largura das imagens */
+        height: auto; /* Torna a altura das imagens proporcional */
+    }
+    
+    .imagens-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Margem superior */
+        gap: 10px; /* Espaço entre as imagens */
+    }
+    
 }
 
 /* Resetando margens e espaçamentos */
